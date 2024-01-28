@@ -20,22 +20,32 @@ router.get("/", async (req, res) => {
 
 const fs = require("fs");
 
-// Read the JSON file
-const jsonData = fs.readFileSync("recipes_data.json");
-const recipesData = JSON.parse(jsonData);
-
-// Extract the recipes array from the JSON data
-const recipes = recipesData.recipes;
-
 // Define a route to get a random recipe
 router.get("/random", async (req, res) => {
   try {
-    // Generate a random index within the range of recipes array
-    const randomIndex = Math.floor(Math.random() * recipes.length);
-    // Get the random recipe
-    const randomRecipe = recipes[randomIndex];
-    // Send the random recipe as JSON response
-    res.json(randomRecipe);
+    // Asynchronously read the JSON file
+    fs.readFile("recipes_data.json", (err, data) => {
+      if (err) {
+        console.error("Error reading file:", err);
+        return res.status(500).json({ error: "Internal Server Error" });
+      }
+
+      try {
+        // Parse the JSON data
+        const recipesData = JSON.parse(data);
+        const recipes = recipesData.recipes;
+
+        // Generate a random index within the range of recipes array
+        const randomIndex = Math.floor(Math.random() * recipes.length);
+        // Get the random recipe
+        const randomRecipe = recipes[randomIndex];
+        // Send the random recipe as JSON response
+        res.json(randomRecipe);
+      } catch (error) {
+        console.error("Error parsing JSON:", error);
+        res.status(500).json({ error: "Internal Server Error" });
+      }
+    });
   } catch (error) {
     console.error("Error in /random route:", error);
     res.status(500).json({ error: "Internal Server Error" });
