@@ -1,6 +1,23 @@
 const express = require("express");
 const router = express.Router();
 
+/**
+ * GET product list.
+ *
+ * @return product list | empty.
+ */
+router.get("/", async (req, res) => {
+  try {
+    res.json({
+      status: 200,
+      message: "Get data has successfully",
+    });
+  } catch (error) {
+    console.error(error);
+    return res.status(500).send("Server error");
+  }
+});
+
 const fs = require("fs");
 
 // Read the JSON file
@@ -22,23 +39,6 @@ router.get("/random", async (req, res) => {
   } catch (error) {
     console.error("Error in /random route:", error);
     res.status(500).json({ error: "Internal Server Error" });
-  }
-});
-
-/**
- * GET product list.
- *
- * @return product list | empty.
- */
-router.get("/", async (req, res) => {
-  try {
-    res.json({
-      status: 200,
-      message: "Get data has successfully",
-    });
-  } catch (error) {
-    console.error(error);
-    return res.status(500).send("Server error");
   }
 });
 
