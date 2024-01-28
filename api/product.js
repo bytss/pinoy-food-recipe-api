@@ -19,6 +19,7 @@ router.get("/", async (req, res) => {
 });
 
 const fs = require("fs");
+const path = require("path");
 
 // Define a route to get a random recipe
 router.get("/random", async (req, res) => {
