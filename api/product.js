@@ -22,38 +22,33 @@ const fs = require("fs");
 const path = require("path");
 
 // Define a route to get a random recipe
-router.get("/random", async (req, res) => {
-  try {
-    // Construct the file path
-    const filePath = path.resolve("recipes_data.json");
+router.get("/random", (req, res) => {
+  // Construct the file path
+  const filePath = path.resolve(__dirname, "recipes_data.json");
 
-    // Asynchronously read the JSON file
-    fs.readFile(filePath, (err, data) => {
-      if (err) {
-        console.error("Error reading file:", err);
-        return res.status(500).json({ error: "Internal Server Error" });
-      }
+  // Asynchronously read the JSON file
+  fs.readFile(filePath, (err, data) => {
+    if (err) {
+      console.error("Error reading file:", err);
+      return res.status(500).json({ error: "Internal Server Error" });
+    }
 
-      try {
-        // Parse the JSON data
-        const recipesData = JSON.parse(data);
-        const recipes = recipesData.recipes;
+    try {
+      // Parse the JSON data
+      const recipesData = JSON.parse(data);
+      const recipes = recipesData.recipes;
 
-        // Generate a random index within the range of recipes array
-        const randomIndex = Math.floor(Math.random() * recipes.length);
-        // Get the random recipe
-        const randomRecipe = recipes[randomIndex];
-        // Send the random recipe as JSON response
-        res.json(randomRecipe);
-      } catch (error) {
-        console.error("Error parsing JSON:", error);
-        res.status(500).json({ error: "Internal Server Error" });
-      }
-    });
-  } catch (error) {
-    console.error("Error in /random route:", error);
-    res.status(500).json({ error: "Internal Server Error" });
-  }
+      // Generate a random index within the range of recipes array
+      const randomIndex = Math.floor(Math.random() * recipes.length);
+      // Get the random recipe
+      const randomRecipe = recipes[randomIndex];
+      // Send the random recipe as JSON response
+      res.json(randomRecipe);
+    } catch (error) {
+      console.error("Error parsing JSON:", error);
+      res.status(500).json({ error: "Internal Server Error" });
+    }
+  });
 });
 
 module.exports = router;
