@@ -24,8 +24,11 @@ const path = require("path");
 // Define a route to get a random recipe
 router.get("/random", async (req, res) => {
   try {
+    // Construct the file path
+    const filePath = path.resolve("recipes_data.json");
+
     // Asynchronously read the JSON file
-    fs.readFile("recipes_data.json", (err, data) => {
+    fs.readFile(filePath, (err, data) => {
       if (err) {
         console.error("Error reading file:", err);
         return res.status(500).json({ error: "Internal Server Error" });
