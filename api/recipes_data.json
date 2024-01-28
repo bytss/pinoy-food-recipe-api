@@ -1,102 +1,124 @@
 {
-    "key": "",
-    "recipes": [
-      {
-        "name": "Adobo",
-        "description": "A popular Filipino dish consisting of meat (commonly chicken, pork, or a combination) marinated in vinegar, soy sauce, garlic, bay leaves, and black peppercorns then simmered until tender."
-      },
-      {
-        "name": "Sinigang",
-        "description": "A sour soup or stew characterized by its distinct sour flavor, typically made with pork, beef, or seafood, along with vegetables like kangkong (water spinach), radish, eggplant, and tomatoes."
-      },
-      {
-        "name": "Kare-Kare",
-        "description": "A rich and savory Filipino stew made with oxtail, tripe, and vegetables cooked in a thick peanut sauce, served with bagoong (shrimp paste) on the side."
-      },
-      {
-        "name": "Lechon",
-        "description": "A whole roasted pig dish, popular during celebrations and special occasions, known for its crispy skin and tender meat seasoned with spices and herbs."
-      },
-      {
-        "name": "Pancit",
-        "description": "A stir-fried noodle dish made with rice noodles, meat (such as chicken, pork, or shrimp), and vegetables, seasoned with soy sauce and often garnished with calamansi and chopped green onions."
-      },
-      {
-        "name": "Bulalo",
-        "description": "A hearty beef soup made with bone marrow, beef shanks, and vegetables like corn, cabbage, and bok choy, flavored with fish sauce and peppercorns."
-      },
-      {
-        "name": "Tinola",
-        "description": "A clear chicken soup flavored with ginger, garlic, and fish sauce, with green papaya or sayote (chayote) and chili leaves added for flavor and nutrition."
-      },
-      {
-        "name": "Paksiw",
-        "description": "A cooking method where meat (commonly fish or pork) is simmered in a vinegar-based sauce with garlic, ginger, and spices, resulting in a tangy and savory dish."
-      },
-      {
-        "name": "Sisig",
-        "description": "A flavorful dish made from chopped pig's head and liver, seasoned with calamansi juice, soy sauce, and chili peppers, often served on a sizzling plate."
-      },
-      {
-        "name": "Tinapang Bangus",
-        "description": "Milkfish (bangus) that has been marinated, smoked, and dried, resulting in a flavorful and aromatic fish commonly eaten with rice and vinegar."
-      },
-      {
-        "name": "Dinuguan",
-        "description": "A savory pork blood stew made with pork meat, innards, and/or skin cooked in a rich, thick gravy flavored with vinegar, garlic, and chili peppers."
-      },
-      {
-        "name": "Pinakbet",
-        "description": "A vegetable dish made with mixed vegetables like eggplant, bitter melon, squash, and okra, sautéed with shrimp paste and sometimes pork or seafood."
-      },
-      {
-        "name": "Champorado",
-        "description": "A sweet chocolate rice porridge made by boiling glutinous rice with cocoa powder or tablea (local chocolate tablets), often served with evaporated milk and dried fish."
-      },
-      {
-        "name": "Humba",
-        "description": "A sweet and savory pork dish similar to adobo, but with the addition of pineapple juice, resulting in a tender and flavorful stew."
-      },
-      {
-        "name": "Lumpia",
-        "description": "Filipino spring rolls filled with a mixture of minced meat (usually pork or chicken), vegetables, and sometimes shrimp, then fried until crispy."
-      },
-      {
-        "name": "Laing",
-        "description": "A spicy Filipino dish made from dried taro leaves and coconut milk, often cooked with shrimp paste, pork, and chili peppers."
-      },
-      {
-        "name": "Puto",
-        "description": "A type of Filipino steamed rice cake made from rice flour, sugar, and coconut milk, often served as a snack or dessert."
-      },
-      {
-        "name": "Taho",
-        "description": "A sweet and comforting snack made from soft tofu, arnibal (sweet syrup made from brown sugar and vanilla), and sago pearls."
-      },
-      {
-        "name": "Balut",
-        "description": "A fertilized duck egg with a partially developed embryo inside, boiled and typically eaten with a sprinkle of salt or a dip in vinegar."
-      },
-      {
-        "name": "Longganisa",
-        "description": "A sweet and savory Filipino sausage made from ground pork seasoned with garlic, sugar, and spices, often served for breakfast with garlic rice and eggs."
-      },
-      {
-        "name": "Pancit Malabon",
-        "description": "A seafood noodle dish from the city of Malabon, characterized by its thick rice noodles, topped with a shrimp, squid, and smoked fish sauce."
-      },
-      {
-        "name": "Inihaw na Pusit",
-        "description": "Grilled squid marinated in a mixture of vinegar, soy sauce, calamansi juice, and garlic, resulting in a smoky and flavorful seafood dish."
-      },
-      {
-        "name": "Turon",
-        "description": "A Filipino dessert made from ripe bananas rolled in brown sugar, wrapped in spring roll wrappers, and fried until crispy, often served with a drizzle of caramel sauce."
-      },
-      {
-        "name": "Ginataang Langka",
-        "description": "A Filipino dish made from unripe jackfruit cooked in coconut milk, often with shrimp, pork, or fish, seasoned with garlic, ginger, and chili peppers."
-      }
-    ]
-  }
-  
+  "recipes": [
+    {
+      "name": "Adobo",
+      "category": "Main Dish",
+      "description": "A popular Filipino dish consisting of meat (commonly chicken, pork, or a combination) marinated in vinegar, soy sauce, garlic, bay leaves, and black peppercorns then simmered until tender.",
+      "image_url": "https://example.com/adobo_image.jpg",
+      "ingredients": [
+        "1 kg chicken or pork, cut into serving pieces",
+        "1/2 cup soy sauce",
+        "1/2 cup vinegar",
+        "1 head garlic, minced",
+        "3 bay leaves",
+        "1 teaspoon whole peppercorns",
+        "1 cup water",
+        "2 tablespoons cooking oil"
+      ],
+      "instructions": [
+        "In a bowl, combine soy sauce, vinegar, garlic, bay leaves, and peppercorns. Marinate the meat in this mixture for at least 30 minutes.",
+        "Heat oil in a pan. Sauté the marinated meat until brown.",
+        "Pour in the marinade and water. Bring to a boil, then lower the heat and simmer until the meat is tender and the sauce is reduced and thickened.",
+        "Serve hot with rice."
+      ]
+    },
+    {
+      "name": "Sinigang",
+      "category": "Soup",
+      "description": "A sour soup or stew characterized by its distinct sour flavor, typically made with pork, beef, or seafood, along with vegetables like kangkong (water spinach), radish, eggplant, and tomatoes.",
+      "image_url": "https://example.com/sinigang_image.jpg",
+      "ingredients": [
+        "500g pork ribs or pork belly, cut into chunks",
+        "1 medium onion, quartered",
+        "2 medium tomatoes, quartered",
+        "2 cups kangkong (water spinach), chopped",
+        "1 large daikon radish, peeled and sliced",
+        "1 medium eggplant, sliced",
+        "3-4 pieces green chili peppers",
+        "1 packet sinigang mix",
+        "8 cups water",
+        "Fish sauce or salt, to taste"
+      ],
+      "instructions": [
+        "In a pot, bring water to a boil. Add the pork ribs and simmer until tender.",
+        "Add onions and tomatoes, and simmer until softened.",
+        "Add the radish and eggplant, then the sinigang mix. Simmer until vegetables are cooked.",
+        "Add kangkong and chili peppers. Season with fish sauce or salt to taste.",
+        "Serve hot with rice."
+      ]
+    },
+    {
+      "name": "Kare-Kare",
+      "category": "Main Dish",
+      "description": "A rich and savory Filipino stew made with oxtail, tripe, and vegetables cooked in a thick peanut sauce, served with bagoong (shrimp paste) on the side.",
+      "image_url": "https://example.com/kare_kare_image.jpg",
+      "ingredients": [
+        "1 kg oxtail or beef tripe, cut into pieces",
+        "1/2 cup peanut butter",
+        "1/4 cup ground toasted rice",
+        "2 medium eggplants, sliced",
+        "1 bundle bok choy (pechay)",
+        "1 bundle string beans, cut into 2-inch lengths",
+        "1/2 cup annatto seeds (achuete)",
+        "1 onion, chopped",
+        "4 cloves garlic, minced",
+        "Fish sauce or salt, to taste"
+      ],
+      "instructions": [
+        "Boil the oxtail or tripe until tender. Set aside the broth.",
+        "In a separate pan, sauté garlic and onions until fragrant. Add the peanut butter and ground toasted rice, then stir in the oxtail or tripe and annatto water (water from soaking annatto seeds).",
+        "Pour in the reserved broth and simmer until the meat is fully cooked and the sauce has thickened.",
+        "Add the vegetables and cook until tender.",
+        "Season with fish sauce or salt to taste.",
+        "Serve hot with bagoong on the side."
+      ]
+    },
+    {
+      "name": "Lechon",
+      "category": "Main Dish",
+      "description": "A whole roasted pig dish, popular during celebrations and special occasions, known for its crispy skin and tender meat seasoned with spices and herbs.",
+      "image_url": "https://example.com/lechon_image.jpg",
+      "ingredients": [
+        "1 whole pig (around 20-30 kg)",
+        "Salt",
+        "Pepper",
+        "Garlic, minced",
+        "Lemongrass, chopped"
+      ],
+      "instructions": [
+        "Clean the pig thoroughly and pat it dry.",
+        "Rub salt, pepper, minced garlic, and chopped lemongrass all over the pig, including inside the cavity.",
+        "Roast the pig on a spit over charcoal or in a large oven until the skin is crispy and golden brown, and the meat is tender.",
+        "Serve hot with a dipping sauce made from vinegar, soy sauce, and chili peppers."
+      ]
+    },
+    {
+      "name": "Pancit",
+      "category": "Main Dish",
+      "description": "A stir-fried noodle dish made with rice noodles, meat (such as chicken, pork, or shrimp), and vegetables, seasoned with soy sauce and often garnished with calamansi and chopped green onions.",
+      "image_url": "https://example.com/pancit_image.jpg",
+      "ingredients": [
+        "500g rice noodles (bihon or canton)",
+        "250g chicken breast, sliced thinly",
+        "250g pork belly, sliced thinly",
+        "1 cup shrimp, peeled and deveined",
+        "2 cups mixed vegetables (carrots, cabbage, snow peas)",
+        "4 cloves garlic, minced",
+        "1 onion, sliced",
+        "3 tablespoons soy sauce",
+        "Fish sauce, to taste",
+        "Calamansi or lemon wedges, for serving",
+        "Chopped green onions, for garnish"
+      ],
+      "instructions": [
+        "Soak the rice noodles in water until soft, then drain.",
+        "In a wok or large skillet, heat oil and sauté garlic and onions until fragrant.",
+        "Add chicken and pork, cook until browned.",
+        "Add shrimp and mixed vegetables, cook until shrimp turn pink and vegetables are tender.",
+        "Add the drained noodles and soy sauce, toss to combine.",
+        "Season with fish sauce to taste.",
+        "Serve hot with calamansi wedges and chopped green onions."
+      ]
+    }
+  ]
+}
