@@ -42,8 +42,9 @@ router.get("/random", (req, res) => {
       const randomIndex = Math.floor(Math.random() * recipes.length);
       // Get the random recipe
       const randomRecipe = recipes[randomIndex];
-      // Send the random recipe as JSON response
-      res.json(randomRecipe);
+
+      // Send the random recipe wrapped in an array as JSON response
+      res.json({ recipes: [randomRecipe] });
     } catch (error) {
       console.error("Error parsing JSON:", error);
       res.status(500).json({ error: "Internal Server Error" });
