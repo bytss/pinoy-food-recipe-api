@@ -1,179 +1,181 @@
-[
-  {
-    "image": "https://example.com/adobo_image.jpg",
-    "title": "Chicken Adobo",
-    "dishTypes": ["Main Dish"],
-    "extendedIngredients": [
-      { "original": "1 kg Chicken" },
-      { "original": "1/2 cup Soy Sauce" },
-      { "original": "1/2 cup Vinegar" },
-      { "original": "1 head Garlic, minced" },
-      { "original": "3 Bay Leaves" },
-      { "original": "1 tsp Whole Peppercorns" },
-      { "original": "1 cup Water" },
-      { "original": "2 tbsp Cooking Oil" }
-    ],
-    "instructions": "Step 1: In a bowl, combine soy sauce, vinegar, garlic, bay leaves, and peppercorns. Marinate the chicken in this mixture for at least 30 minutes. Step 2: Heat oil in a pan. Sauté the marinated chicken until brown. Step 3: Pour in the marinade and water. Bring to a boil, then lower the heat and simmer until the chicken is tender and the sauce is reduced and thickened. Step 4: Serve hot with rice.",
-    "cookingMinutes": 40
-  },
-  {
-    "image": "https://example.com/sinigang_image.jpg",
-    "title": "Sinigang",
-    "dishTypes": ["Main Dish", "Soup"],
-    "extendedIngredients": [
-      { "original": "500g Pork Belly, sliced" },
-      { "original": "1 pack Sinigang Mix" },
-      { "original": "1 pc Onion, quartered" },
-      { "original": "2 pcs Tomato, quartered" },
-      { "original": "2 pcs Radish, sliced" },
-      { "original": "1 bundle Kangkong (Water Spinach), cleaned" },
-      { "original": "1 pc Green Chili Pepper" },
-      { "original": "5 cups Water" }
-    ],
-    "instructions": "Step 1: In a pot, boil water. Add pork belly, onion, and tomato. Simmer until pork is tender. Step 2: Add sinigang mix and radish. Simmer until radish is tender. Step 3: Add kangkong and green chili pepper. Simmer for another 2 minutes. Step 4: Serve hot with rice.",
-    "cookingMinutes": 45
-  },
-  {
-    "image": "https://example.com/kare_kare_image.jpg",
-    "title": "Kare-Kare",
-    "dishTypes": ["Main Dish"],
-    "extendedIngredients": [
-      { "original": "1 kg Ox Tail, cut into 2-inch pieces" },
-      { "original": "1 bundle Pechay (Bok Choy)" },
-      { "original": "1 bundle String Beans, cut into 2-inch pieces" },
-      { "original": "1 bundle Banana Blossom" },
-      { "original": "1/2 cup Peanut Butter" },
-      { "original": "3 tbsp Annatto Seeds" },
-      { "original": "1 pc Onion, chopped" },
-      { "original": "4 cloves Garlic, minced" },
-      { "original": "4 cups Water" }
-    ],
-    "instructions": "Step 1: In a pot, boil ox tail in water until tender. Step 2: Sauté garlic and onion. Add annatto seeds and peanut butter. Step 3: Add boiled ox tail and continue cooking until sauce thickens. Step 4: Add vegetables and simmer until cooked. Step 5: Serve hot with bagoong (shrimp paste) and rice.",
-    "cookingMinutes": 60
-  },
-  {
-    "image": "https://example.com/sisig_image.jpg",
-    "title": "Sisig",
-    "dishTypes": ["Appetizer"],
-    "extendedIngredients": [
-      { "original": "500g Pork Face (maskara), boiled and chopped" },
-      { "original": "1 pc Onion, chopped" },
-      { "original": "3 cloves Garlic, minced" },
-      { "original": "3 pcs Red Chili Pepper, chopped" },
-      { "original": "3 pcs Green Chili Pepper, chopped" },
-      { "original": "3 tbsp Mayonnaise" },
-      { "original": "2 tbsp Soy Sauce" },
-      { "original": "2 tbsp Vinegar" },
-      { "original": "1 tbsp Butter" }
-    ],
-    "instructions": "Step 1: In a pan, melt butter. Sauté garlic and onion until fragrant. Step 2: Add chopped pork face and cook until crispy. Step 3: Add red and green chili pepper, soy sauce, and vinegar. Cook for a few more minutes. Step 4: Add mayonnaise and mix well. Step 5: Serve hot on a sizzling plate.",
-    "cookingMinutes": 30
-  },
-  {
-    "image": "https://example.com/lechon_image.jpg",
-    "title": "Lechon",
-    "dishTypes": ["Main Dish"],
-    "extendedIngredients": [
-      { "original": "1 whole Pig, cleaned and gutted" },
-      { "original": "Rock Salt" },
-      { "original": "3 stalks Lemongrass" },
-      { "original": "5 pcs Bay Leaves" },
-      { "original": "5 cloves Garlic, minced" },
-      { "original": "1 tbsp Pepper" },
-      { "original": "1/4 cup Soy Sauce" },
-      { "original": "1/4 cup Vinegar" },
-      { "original": "1/4 cup Oil" }
-    ],
-    "instructions": "Step 1: Rub pig with rock salt inside and out. Stuff lemongrass, bay leaves, garlic, and pepper inside the cavity. Step 2: Roast pig over charcoal until skin is crispy and meat is tender. Step 3: Baste with soy sauce, vinegar, and oil mixture every 30 minutes. Step 4: Serve hot with liver sauce and rice.",
-    "cookingMinutes": 240
-  },
-  {
-    "image": "https://example.com/paksiw_image.jpg",
-    "title": "Paksiw na Lechon",
-    "dishTypes": ["Main Dish"],
-    "extendedIngredients": [
-      { "original": "Leftover Lechon, chopped" },
-      { "original": "1 cup Vinegar" },
-      { "original": "1/2 cup Soy Sauce" },
-      { "original": "1/2 cup Water" },
-      { "original": "3 pcs Bay Leaves" },
-      { "original": "1/2 cup Sugar" },
-      { "original": "1/4 cup Garlic, minced" },
-      { "original": "1/4 cup Onion, chopped" },
-      { "original": "1/4 cup Whole Peppercorns" }
-    ],
-    "instructions": "Step 1: In a pot, combine vinegar, soy sauce, water, bay leaves, sugar, garlic, onion, and peppercorns. Step 2: Add chopped lechon and simmer until sauce is reduced and meat is tender. Step 3: Serve hot with rice.",
-    "cookingMinutes": 30
-  },
-  {
-    "image": "https://example.com/tinola_image.jpg",
-    "title": "Chicken Tinola",
-    "dishTypes": ["Main Dish", "Soup"],
-    "extendedIngredients": [
-      { "original": "1 kg Chicken, cut into serving pieces" },
-      { "original": "1 pc Papaya, sliced" },
-      { "original": "1 pc Onion, sliced" },
-      { "original": "3 cloves Garlic, minced" },
-      { "original": "1 thumb-sized Ginger, sliced" },
-      { "original": "2 tbsp Fish Sauce" },
-      { "original": "6 cups Water" },
-      { "original": "1 bundle Chili Leaves (Dahon ng Sili)" }
-    ],
-    "instructions": "Step 1: In a pot, sauté garlic, onion, and ginger. Add chicken and cook until slightly browned. Step 2: Add water and fish sauce. Simmer until chicken is tender. Step 3: Add papaya and chili leaves. Simmer for another 2 minutes. Step 4: Serve hot with rice.",
-    "cookingMinutes": 45
-  },
-  {
-    "image": "https://example.com/lumpia_image.jpg",
-    "title": "Lumpiang Shanghai",
-    "dishTypes": ["Appetizer"],
-    "extendedIngredients": [
-      { "original": "500g Ground Pork" },
-      { "original": "1 cup Carrots, grated" },
-      { "original": "1 cup Green Beans, chopped" },
-      { "original": "1/2 cup Onion, chopped" },
-      { "original": "2 cloves Garlic, minced" },
-      { "original": "Salt and Pepper to taste" },
-      { "original": "Spring Roll Wrappers" },
-      { "original": "Oil for frying" }
-    ],
-    "instructions": "Step 1: In a bowl, mix ground pork, carrots, green beans, onion, garlic, salt, and pepper. Step 2: Place a spoonful of the mixture on a spring roll wrapper and roll tightly. Seal the edges with water. Step 3: Heat oil in a pan and fry lumpia until golden brown and crispy. Step 4: Serve hot with sweet and sour sauce.",
-    "cookingMinutes": 30
-  },
-  {
-    "image": "https://example.com/halo_halo_image.jpg",
-    "title": "Halo-Halo",
-    "dishTypes": ["Dessert"],
-    "extendedIngredients": [
-      { "original": "Shaved Ice" },
-      { "original": "Sweetened Beans" },
-      { "original": "Sweetened Banana" },
-      { "original": "Sweetened Jackfruit" },
-      { "original": "Sweetened Kaong (Sugar Palm Fruit)" },
-      { "original": "Sweetened Nata de Coco (Coconut Gel)" },
-      { "original": "Leche Flan" },
-      { "original": "Ube Halaya (Purple Yam)" },
-      { "original": "Shredded Macapuno (Coconut Sport)" },
-      { "original": "Evaporated Milk" },
-      { "original": "Ice Cream" }
-    ],
-    "instructions": "Step 1: In a tall glass, layer shaved ice, sweetened beans, sweetened banana, sweetened jackfruit, sweetened kaong, sweetened nata de coco, leche flan, and ube halaya. Step 2: Top with shredded macapuno and evaporated milk. Step 3: Add a scoop of ice cream on top. Step 4: Serve immediately and mix well before eating.",
-    "cookingMinutes": 10
-  },
-  {
-    "image": "https://example.com/bulalo_image.jpg",
-    "title": "Bulalo",
-    "dishTypes": ["Main Dish", "Soup"],
-    "extendedIngredients": [
-      { "original": "1 kg Beef Shanks, with marrow" },
-      { "original": "1 pc Corn, cut into 3-inch pieces" },
-      { "original": "1 bundle Pechay (Bok Choy)" },
-      { "original": "3 pcs Potatoes, quartered" },
-      { "original": "1 pc Onion, quartered" },
-      { "original": "3 cloves Garlic, minced" },
-      { "original": "Salt and Pepper to taste" },
-      { "original": "Water" }
-    ],
-    "instructions": "Step 1: In a pot, boil beef shanks in water until meat is tender and marrow is cooked. Step 2: Add corn, potatoes, onion, and garlic. Simmer until vegetables are tender. Step 3: Season with salt and pepper. Step 4: Add pechay and simmer for another 2 minutes. Step 5: Serve hot with rice.",
-    "cookingMinutes": 120
-  }
-]
+{
+  "recipes": [
+    {
+      "image": "https://example.com/adobo_image.jpg",
+      "title": "Chicken Adobo",
+      "dishTypes": ["Main Dish"],
+      "extendedIngredients": [
+        { "original": "1 kg Chicken" },
+        { "original": "1/2 cup Soy Sauce" },
+        { "original": "1/2 cup Vinegar" },
+        { "original": "1 head Garlic, minced" },
+        { "original": "3 Bay Leaves" },
+        { "original": "1 tsp Whole Peppercorns" },
+        { "original": "1 cup Water" },
+        { "original": "2 tbsp Cooking Oil" }
+      ],
+      "instructions": "Step 1: In a bowl, combine soy sauce, vinegar, garlic, bay leaves, and peppercorns. Marinate the chicken in this mixture for at least 30 minutes. Step 2: Heat oil in a pan. Sauté the marinated chicken until brown. Step 3: Pour in the marinade and water. Bring to a boil, then lower the heat and simmer until the chicken is tender and the sauce is reduced and thickened. Step 4: Serve hot with rice.",
+      "cookingMinutes": 40
+    },
+    {
+      "image": "https://example.com/sinigang_image.jpg",
+      "title": "Sinigang",
+      "dishTypes": ["Main Dish", "Soup"],
+      "extendedIngredients": [
+        { "original": "500g Pork Belly, sliced" },
+        { "original": "1 pack Sinigang Mix" },
+        { "original": "1 pc Onion, quartered" },
+        { "original": "2 pcs Tomato, quartered" },
+        { "original": "2 pcs Radish, sliced" },
+        { "original": "1 bundle Kangkong (Water Spinach), cleaned" },
+        { "original": "1 pc Green Chili Pepper" },
+        { "original": "5 cups Water" }
+      ],
+      "instructions": "Step 1: In a pot, boil water. Add pork belly, onion, and tomato. Simmer until pork is tender. Step 2: Add sinigang mix and radish. Simmer until radish is tender. Step 3: Add kangkong and green chili pepper. Simmer for another 2 minutes. Step 4: Serve hot with rice.",
+      "cookingMinutes": 45
+    },
+    {
+      "image": "https://example.com/kare_kare_image.jpg",
+      "title": "Kare-Kare",
+      "dishTypes": ["Main Dish"],
+      "extendedIngredients": [
+        { "original": "1 kg Ox Tail, cut into 2-inch pieces" },
+        { "original": "1 bundle Pechay (Bok Choy)" },
+        { "original": "1 bundle String Beans, cut into 2-inch pieces" },
+        { "original": "1 bundle Banana Blossom" },
+        { "original": "1/2 cup Peanut Butter" },
+        { "original": "3 tbsp Annatto Seeds" },
+        { "original": "1 pc Onion, chopped" },
+        { "original": "4 cloves Garlic, minced" },
+        { "original": "4 cups Water" }
+      ],
+      "instructions": "Step 1: In a pot, boil ox tail in water until tender. Step 2: Sauté garlic and onion. Add annatto seeds and peanut butter. Step 3: Add boiled ox tail and continue cooking until sauce thickens. Step 4: Add vegetables and simmer until cooked. Step 5: Serve hot with bagoong (shrimp paste) and rice.",
+      "cookingMinutes": 60
+    },
+    {
+      "image": "https://example.com/sisig_image.jpg",
+      "title": "Sisig",
+      "dishTypes": ["Appetizer"],
+      "extendedIngredients": [
+        { "original": "500g Pork Face (maskara), boiled and chopped" },
+        { "original": "1 pc Onion, chopped" },
+        { "original": "3 cloves Garlic, minced" },
+        { "original": "3 pcs Red Chili Pepper, chopped" },
+        { "original": "3 pcs Green Chili Pepper, chopped" },
+        { "original": "3 tbsp Mayonnaise" },
+        { "original": "2 tbsp Soy Sauce" },
+        { "original": "2 tbsp Vinegar" },
+        { "original": "1 tbsp Butter" }
+      ],
+      "instructions": "Step 1: In a pan, melt butter. Sauté garlic and onion until fragrant. Step 2: Add chopped pork face and cook until crispy. Step 3: Add red and green chili pepper, soy sauce, and vinegar. Cook for a few more minutes. Step 4: Add mayonnaise and mix well. Step 5: Serve hot on a sizzling plate.",
+      "cookingMinutes": 30
+    },
+    {
+      "image": "https://example.com/lechon_image.jpg",
+      "title": "Lechon",
+      "dishTypes": ["Main Dish"],
+      "extendedIngredients": [
+        { "original": "1 whole Pig, cleaned and gutted" },
+        { "original": "Rock Salt" },
+        { "original": "3 stalks Lemongrass" },
+        { "original": "5 pcs Bay Leaves" },
+        { "original": "5 cloves Garlic, minced" },
+        { "original": "1 tbsp Pepper" },
+        { "original": "1/4 cup Soy Sauce" },
+        { "original": "1/4 cup Vinegar" },
+        { "original": "1/4 cup Oil" }
+      ],
+      "instructions": "Step 1: Rub pig with rock salt inside and out. Stuff lemongrass, bay leaves, garlic, and pepper inside the cavity. Step 2: Roast pig over charcoal until skin is crispy and meat is tender. Step 3: Baste with soy sauce, vinegar, and oil mixture every 30 minutes. Step 4: Serve hot with liver sauce and rice.",
+      "cookingMinutes": 240
+    },
+    {
+      "image": "https://example.com/paksiw_image.jpg",
+      "title": "Paksiw na Lechon",
+      "dishTypes": ["Main Dish"],
+      "extendedIngredients": [
+        { "original": "Leftover Lechon, chopped" },
+        { "original": "1 cup Vinegar" },
+        { "original": "1/2 cup Soy Sauce" },
+        { "original": "1/2 cup Water" },
+        { "original": "3 pcs Bay Leaves" },
+        { "original": "1/2 cup Sugar" },
+        { "original": "1/4 cup Garlic, minced" },
+        { "original": "1/4 cup Onion, chopped" },
+        { "original": "1/4 cup Whole Peppercorns" }
+      ],
+      "instructions": "Step 1: In a pot, combine vinegar, soy sauce, water, bay leaves, sugar, garlic, onion, and peppercorns. Step 2: Add chopped lechon and simmer until sauce is reduced and meat is tender. Step 3: Serve hot with rice.",
+      "cookingMinutes": 30
+    },
+    {
+      "image": "https://example.com/tinola_image.jpg",
+      "title": "Chicken Tinola",
+      "dishTypes": ["Main Dish", "Soup"],
+      "extendedIngredients": [
+        { "original": "1 kg Chicken, cut into serving pieces" },
+        { "original": "1 pc Papaya, sliced" },
+        { "original": "1 pc Onion, sliced" },
+        { "original": "3 cloves Garlic, minced" },
+        { "original": "1 thumb-sized Ginger, sliced" },
+        { "original": "2 tbsp Fish Sauce" },
+        { "original": "6 cups Water" },
+        { "original": "1 bundle Chili Leaves (Dahon ng Sili)" }
+      ],
+      "instructions": "Step 1: In a pot, sauté garlic, onion, and ginger. Add chicken and cook until slightly browned. Step 2: Add water and fish sauce. Simmer until chicken is tender. Step 3: Add papaya and chili leaves. Simmer for another 2 minutes. Step 4: Serve hot with rice.",
+      "cookingMinutes": 45
+    },
+    {
+      "image": "https://example.com/lumpia_image.jpg",
+      "title": "Lumpiang Shanghai",
+      "dishTypes": ["Appetizer"],
+      "extendedIngredients": [
+        { "original": "500g Ground Pork" },
+        { "original": "1 cup Carrots, grated" },
+        { "original": "1 cup Green Beans, chopped" },
+        { "original": "1/2 cup Onion, chopped" },
+        { "original": "2 cloves Garlic, minced" },
+        { "original": "Salt and Pepper to taste" },
+        { "original": "Spring Roll Wrappers" },
+        { "original": "Oil for frying" }
+      ],
+      "instructions": "Step 1: In a bowl, mix ground pork, carrots, green beans, onion, garlic, salt, and pepper. Step 2: Place a spoonful of the mixture on a spring roll wrapper and roll tightly. Seal the edges with water. Step 3: Heat oil in a pan and fry lumpia until golden brown and crispy. Step 4: Serve hot with sweet and sour sauce.",
+      "cookingMinutes": 30
+    },
+    {
+      "image": "https://example.com/halo_halo_image.jpg",
+      "title": "Halo-Halo",
+      "dishTypes": ["Dessert"],
+      "extendedIngredients": [
+        { "original": "Shaved Ice" },
+        { "original": "Sweetened Beans" },
+        { "original": "Sweetened Banana" },
+        { "original": "Sweetened Jackfruit" },
+        { "original": "Sweetened Kaong (Sugar Palm Fruit)" },
+        { "original": "Sweetened Nata de Coco (Coconut Gel)" },
+        { "original": "Leche Flan" },
+        { "original": "Ube Halaya (Purple Yam)" },
+        { "original": "Shredded Macapuno (Coconut Sport)" },
+        { "original": "Evaporated Milk" },
+        { "original": "Ice Cream" }
+      ],
+      "instructions": "Step 1: In a tall glass, layer shaved ice, sweetened beans, sweetened banana, sweetened jackfruit, sweetened kaong, sweetened nata de coco, leche flan, and ube halaya. Step 2: Top with shredded macapuno and evaporated milk. Step 3: Add a scoop of ice cream on top. Step 4: Serve immediately and mix well before eating.",
+      "cookingMinutes": 10
+    },
+    {
+      "image": "https://example.com/bulalo_image.jpg",
+      "title": "Bulalo",
+      "dishTypes": ["Main Dish", "Soup"],
+      "extendedIngredients": [
+        { "original": "1 kg Beef Shanks, with marrow" },
+        { "original": "1 pc Corn, cut into 3-inch pieces" },
+        { "original": "1 bundle Pechay (Bok Choy)" },
+        { "original": "3 pcs Potatoes, quartered" },
+        { "original": "1 pc Onion, quartered" },
+        { "original": "3 cloves Garlic, minced" },
+        { "original": "Salt and Pepper to taste" },
+        { "original": "Water" }
+      ],
+      "instructions": "Step 1: In a pot, boil beef shanks in water until meat is tender and marrow is cooked. Step 2: Add corn, potatoes, onion, and garlic. Simmer until vegetables are tender. Step 3: Season with salt and pepper. Step 4: Add pechay and simmer for another 2 minutes. Step 5: Serve hot with rice.",
+      "cookingMinutes": 120
+    }
+  ]  
+}
