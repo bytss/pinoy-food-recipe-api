@@ -1,7 +1,7 @@
 {
   "recipes": [
     {
-      "image": "https://example.com/adobo_image.jpg",
+      "image": "https://images.aws.nestle.recipes/resized/38a93505b258e61852c5c821ba1f55a1_nks-b3-d02_159_944_531.jpg",
       "title": "Chicken Adobo",
       "dishTypes": ["Main Dish"],
       "extendedIngredients": [
