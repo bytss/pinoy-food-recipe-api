@@ -18,7 +18,7 @@
       "cookingMinutes": 40
     },
     {
-      "image": "https://example.com/sinigang_image.jpg",
+      "image": "https://images.aws.nestle.recipes/resized/38a93505b258e61852c5c821ba1f55a1_nks-b3-d02_159_944_531.jpg",
       "title": "Sinigang",
       "dishTypes": ["Main Dish", "Soup"],
       "extendedIngredients": [
@@ -35,7 +35,7 @@
       "cookingMinutes": 45
     },
     {
-      "image": "https://example.com/kare_kare_image.jpg",
+      "image": "https://images.aws.nestle.recipes/resized/38a93505b258e61852c5c821ba1f55a1_nks-b3-d02_159_944_531.jpg",
       "title": "Kare-Kare",
       "dishTypes": ["Main Dish"],
       "extendedIngredients": [
