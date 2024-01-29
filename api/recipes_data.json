@@ -18,7 +18,7 @@
       "cookingMinutes": 40
     },
     {
-      "image": "https://images.aws.nestle.recipes/resized/38a93505b258e61852c5c821ba1f55a1_nks-b3-d02_159_944_531.jpg",
+      "image": "https://images.yummy.ph/yummy/uploads/2019/03/sinigangbakarecipe-1.jpg",
       "title": "Sinigang",
       "dishTypes": ["Main Dish", "Soup"],
       "extendedIngredients": [
@@ -35,7 +35,7 @@
       "cookingMinutes": 45
     },
     {
-      "image": "https://images.aws.nestle.recipes/resized/38a93505b258e61852c5c821ba1f55a1_nks-b3-d02_159_944_531.jpg",
+      "image": "https://assets.unileversolutions.com/v1/85775930.jpg",
       "title": "Kare-Kare",
       "dishTypes": ["Main Dish"],
       "extendedIngredients": [
@@ -53,7 +53,7 @@
       "cookingMinutes": 60
     },
     {
-      "image": "https://example.com/sisig_image.jpg",
+      "image": "https://theodehlicious.com/wp-content/uploads/2022/04/Bangus-Sisig-Featured-Image.jpg",
       "title": "Sisig",
       "dishTypes": ["Appetizer"],
       "extendedIngredients": [
@@ -71,7 +71,7 @@
       "cookingMinutes": 30
     },
     {
-      "image": "https://example.com/lechon_image.jpg",
+      "image": "https://images.yummy.ph/yummy/uploads/2023/02/Ricos-Lechon.jpg",
       "title": "Lechon",
       "dishTypes": ["Main Dish"],
       "extendedIngredients": [
@@ -89,7 +89,7 @@
       "cookingMinutes": 240
     },
     {
-      "image": "https://example.com/paksiw_image.jpg",
+      "image": "https://pilipinasrecipes.com/wp-content/uploads/2019/04/IMG_3654-1024x683.jpg",
       "title": "Paksiw na Lechon",
       "dishTypes": ["Main Dish"],
       "extendedIngredients": [
@@ -107,7 +107,7 @@
       "cookingMinutes": 30
     },
     {
-      "image": "https://example.com/tinola_image.jpg",
+      "image": "https://images.ctfassets.net/pxcfulgsd9e2/5AdDxxvnSrsaRFZtkI0yws/e68046e73433905178dee2a0909a45df/Chicken_Tinola_recipe_HN3483_Recipe_Cover_Sized.jpg?f=top&fit=fill&fl=progressive&fm=jpg&h=786&q=85&w=1396",
       "title": "Chicken Tinola",
       "dishTypes": ["Main Dish", "Soup"],
       "extendedIngredients": [
@@ -124,7 +124,7 @@
       "cookingMinutes": 45
     },
     {
-      "image": "https://example.com/lumpia_image.jpg",
+      "image": "https://images.aws.nestle.recipes/resized/8fa4b6a13f1d904c77b6f6da0cfe5c21_nks-b3-d02_640_944_531.jpg",
       "title": "Lumpiang Shanghai",
       "dishTypes": ["Appetizer"],
       "extendedIngredients": [
@@ -141,7 +141,7 @@
       "cookingMinutes": 30
     },
     {
-      "image": "https://example.com/halo_halo_image.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Halo_halo1.jpg",
       "title": "Halo-Halo",
       "dishTypes": ["Dessert"],
       "extendedIngredients": [
@@ -161,7 +161,7 @@
       "cookingMinutes": 10
     },
     {
-      "image": "https://example.com/bulalo_image.jpg",
+      "image": "https://www.unileverfoodsolutions.com.ph/dam/global-ufs/mcos/SEA/calcmenu/recipes/PH-recipes/red-meats-&-red-meat-dishes/bulalo-with-lemongrass-and-ginger/bulalo-with-tanglad-and-ginger-main-banner.jpg",
       "title": "Bulalo",
       "dishTypes": ["Main Dish", "Soup"],
       "extendedIngredients": [
