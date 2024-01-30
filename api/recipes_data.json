@@ -176,6 +176,22 @@
       ],
       "instructions": "Step 1: In a pot, boil beef shanks in water until meat is tender and marrow is cooked. Step 2: Add corn, potatoes, onion, and garlic. Simmer until vegetables are tender. Step 3: Season with salt and pepper. Step 4: Add pechay and simmer for another 2 minutes. Step 5: Serve hot with rice.",
       "cookingMinutes": 120
+    },
+    {
+      "image": "https://www.frabellemarketplace.ph/media/recipe/Grilled_Stuffed_Squid.png",
+      "title": "Inihaw na Pusit",
+      "dishTypes": ["Main Dish", "Appetizer"],
+      "extendedIngredients": [
+        { "original": "500g Squid (Pusit), cleaned" },
+        { "original": "1/4 cup Soy Sauce" },
+        { "original": "1/4 cup Vinegar" },
+        { "original": "1/4 cup Ketchup" },
+        { "original": "3 cloves Garlic, minced" },
+        { "original": "1 pc Onion, chopped" },
+        { "original": "Salt and Pepper to taste" }
+      ],
+      "instructions": "Step 1: In a bowl, combine soy sauce, vinegar, ketchup, garlic, onion, salt, and pepper. Step 2: Marinate squid in the mixture for at least 30 minutes. Step 3: Grill squid over hot charcoal or a grill pan until cooked and slightly charred. Step 4: Serve hot with vinegar dipping sauce.",
+      "cookingMinutes": 20
     }
   ]  
 }
