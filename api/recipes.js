@@ -61,7 +61,9 @@ router.get("/search=:query", (req, res) => {
   fs.readFile(filePath, (err, data) => {
     if (err) {
       console.error("Error reading file:", err);
-      return res.status(500).json({ error: "Internal Server Error" });
+      return res
+        .status(500)
+        .json({ error: "Internal Server Error - Read File" });
     }
 
     try {
@@ -79,7 +81,7 @@ router.get("/search=:query", (req, res) => {
 
       // Filter recipes based on the search query
       const filteredRecipes = recipes.filter((recipe) =>
-        recipe.name.toLowerCase().includes(searchTerm.toLowerCase())
+        recipe.title.toLowerCase().includes(searchTerm.toLowerCase())
       );
 
       // If no recipes match the search query, return a 404 response
@@ -91,7 +93,7 @@ router.get("/search=:query", (req, res) => {
       res.json(filteredRecipes);
     } catch (error) {
       console.error("Error parsing JSON:", error);
-      res.status(500).json({ error: "Internal Server Error" });
+      res.status(500).json({ error: "Internal Server Error - Parse JSON" });
     }
   });
 });

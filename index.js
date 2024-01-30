@@ -7,4 +7,6 @@ app.use(express.json({ extended: false }));
 app.use("/api/recipes", recipes);
 
 const PORT = process.env.PORT || 8080;
-app.listen(PORT, () => console.log(`Server is running in port ${PORT}`));
+app.listen(PORT, () =>
+  console.log(`Server is running in port http://localhost:${PORT}`)
+);
