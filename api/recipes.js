@@ -90,7 +90,7 @@ router.get("/search=:query", (req, res) => {
       }
 
       // Send the filtered recipes as JSON response
-      res.json(filteredRecipes);
+      res.json({ recipes: filteredRecipes });
     } catch (error) {
       console.error("Error parsing JSON:", error);
       res.status(500).json({ error: "Internal Server Error - Parse JSON" });
